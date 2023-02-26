@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.cache
+.temp
+package-lock.json
+npm-shrinkwrap.json
+yarn.lock
+coverage
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

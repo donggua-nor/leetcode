@@ -1,0 +1,21 @@
+{
+  "name": "leetcode",
+  "private": true,
+  "version": "1.0.0",
+  "description": "personal leetcode practice repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "leetcode",
+    "javascript"
+  ],
+  "author": "donggua <donggua.nor@gmail.com> (https://github.com/donggua-nor)",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "4.1.2",
+    "jest": "^29.4.3",
+    "prettier": "^2.8.4"
+  }
+}
