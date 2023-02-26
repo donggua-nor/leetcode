@@ -5,6 +5,7 @@
   "description": "personal leetcode practice repo",
   "main": "index.js",
   "scripts": {
+    "start": "node scripts/generator.js",
     "test": "jest"
   },
   "keywords": [
@@ -15,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "chalk": "4.1.2",
+    "chokidar": "^3.5.3",
     "jest": "^29.4.3",
     "prettier": "^2.8.4"
   }
