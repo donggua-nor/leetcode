@@ -44,7 +44,7 @@ const generateBaseTestFile = (path) => {
   try {
     const { functionName } = fetchQuestion(path)
     const fileName = path.match(fileReg)[0]
-    const testFileName = fileName.replace(/\d\./, '')
+    const testFileName = fileName.replace(/\d*\./, '')
     const targetPath = resolve(test, `${testFileName}.test.js`)
 
     const isExisted = existsSync(targetPath)
